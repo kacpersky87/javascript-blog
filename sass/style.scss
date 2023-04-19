@@ -118,3 +118,44 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+/* Cloud tags */
+
+.tag-size-1 {
+  font-size: 90%;
+  margin-left: 3px;
+}
+
+.tag-size-2 {
+    font-size: 100%;
+    margin-left: 3px;
+}
+
+.tag-size-3 {
+    font-size: 120%;
+    margin-left: 3px;
+}
+
+.tag-size-4 {
+    font-size: 130%;
+    margin-left: 3px;
+}
+
+.tag-size-5 {
+    font-size: 150%;
+    margin-left: 3px;
+}
+
+ul.list.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+}
+p.post-author  {
+    text-decoration: none;
+}
+.post-author li {
+    list-style-type: none;
+} 
